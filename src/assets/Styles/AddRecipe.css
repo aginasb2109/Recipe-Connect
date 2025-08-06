@@ -1,0 +1,67 @@
+
+.add-recipe-container {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.add-recipe-container .title-add {
+  color: #e95a55;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.add-recipe-container .form-layout {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.add-recipe-container .form-label {
+  color: #410402;
+  display: block;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.add-recipe-container .form-control {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+
+.add-recipe-container .form-control:focus {
+  outline: none;
+  border-color: #e95a55;
+}
+
+.add-recipe-container .form-submit-btn {
+  padding: 10px 30px;
+  background-color: #e95a55;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.add-recipe-container .form-submit-btn:hover {
+  background-color: #d94e4a;
+}
+
+@media (max-width: 768px) {
+  .add-recipe-container .form-layout {
+    padding: 15px;
+  }
+}

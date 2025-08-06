@@ -1,0 +1,13 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.card{
+    border: 3px solid #e95a55 !important;
+}
+.inside{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}

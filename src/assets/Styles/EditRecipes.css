@@ -1,0 +1,65 @@
+
+.edit-recipe-container {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.edit-recipe-container .edit-name {
+  color: #e95a55;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.edit-recipe-container .form-edit {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.edit-recipe-container .form-edit input[type="text"],
+.edit-recipe-container .form-edit textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.edit-recipe-container .form-edit textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.edit-recipe-container .form-submit {
+  padding: 10px 30px;
+  background-color: #e95a55;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 0;
+  transition: background-color 0.3s ease;
+}
+
+.edit-recipe-container .form-submit:hover {
+  background-color: #d94e4a;
+}
+
+@media (max-width: 768px) {
+  .edit-recipe-container .form-edit {
+    padding: 15px;
+  }
+}

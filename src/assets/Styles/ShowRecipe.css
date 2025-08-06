@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+
+.show-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.recipe-Name {
+  font-size: 42px;
+  font-family: 'Dancing Script', cursive;
+  color: #dc143c;
+  margin-left:30px;
+  margin-bottom: 25px;
+}
+
+
+.category-Name {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-left:30px;
+  margin-bottom: 15px;
+}
+
+
+.sdes {
+  font-size: 18px;
+  color: #555;
+ margin-left:30px;
+  margin-bottom: 25px;
+  color:#0c0133
+}
+
+
+.method {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2e8b57;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left:30px;
+
+}
+
+
+.recipe-method {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #444;
+  white-space: pre-line;
+  padding-left: 10px;
+  text-align: left;
+}
